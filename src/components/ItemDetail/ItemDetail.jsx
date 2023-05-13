@@ -31,12 +31,11 @@ return (
         <p className='descripcion'>{descripcion}</p>
         <h3 className='precioDetail'>PRECIO: ${precio}</h3>
         <h3 className='idDetail'>ID: {id}</h3>
+        <img className='imgDetails' src={img} alt={nombre} />
         {
             // Aplicamos la lógica para el montaje y desmontaje de componentes
             agregarCantidad > 0 ? (<Link to="/cart"> Terminar compra </Link>) : (<ItemCount inicial={1} stock={stock} funcionAgregar={handlerOnAdd} />)
         }
-        
-        <img className='imgDetails' src={img} alt={nombre} />
         </div>
     </div>
 )

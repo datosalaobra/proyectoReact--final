@@ -1,3 +1,4 @@
+import './Cart.css';
 import { Link } from "react-router-dom"
 import { useContext } from "react"
 import { CarritoContext } from "../../context/CarritoContext"
@@ -27,7 +28,7 @@ const Cart = () => {
             {carrito.map(producto => <CartItem key={producto.id} {...producto} />)}
             <h3>Total: ${total} </h3>
             <button onClick={() => vaciarCarrito()}> Vaciar Carrito </button>
-            <Link to='/checkout'> Finalizar Compra </Link>
+            <Link to='/checkout' className="terminarCompra"> Finalizar Compra </Link>
         </div>
     )
  
