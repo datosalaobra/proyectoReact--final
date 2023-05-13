@@ -28,14 +28,14 @@ return (
     <div className='contenedorItem'>
         <div className='contenedorDetail'>
         <h2 className='nombreDetail'>{nombre}</h2>
-        <p className='descripcion'>{descripcion}</p>
-        <h3 className='precioDetail'>PRECIO: ${precio}</h3>
-        <h3 className='idDetail'>ID: {id}</h3>
         <img className='imgDetails' src={img} alt={nombre} />
+        <h3 className='precioDetail'>PRECIO: ${precio}</h3>
         {
             // Aplicamos la lógica para el montaje y desmontaje de componentes
-            agregarCantidad > 0 ? (<Link to="/cart"> Terminar compra </Link>) : (<ItemCount inicial={1} stock={stock} funcionAgregar={handlerOnAdd} />)
+            agregarCantidad > 0 ? (<Link to="/cart" className='outCompra'> Terminar compra </Link>) : (<ItemCount inicial={1} stock={stock} funcionAgregar={handlerOnAdd} />)
         }
+        <h3 className='idDetail'>ID: {id}</h3>
+        <p className='descripcion'>{descripcion}</p>
         </div>
     </div>
 )

@@ -1,3 +1,7 @@
 .imgCarrito {
     width: 3rem;
 }
+.btnCarrito{
+    text-decoration: none;
+    color: blue;
+}

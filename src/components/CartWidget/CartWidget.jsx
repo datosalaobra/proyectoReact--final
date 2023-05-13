@@ -9,7 +9,7 @@ const CartWidget = () => {
   const totalCantidad = carrito.reduce((total, producto) => total + producto.cantidad, 0);
   const imgCarrito = "https://cdn-icons-png.flaticon.com/512/107/107831.png";
   return (
-    <Link to='/cart'>
+    <Link to='/cart' className='btnCarrito'>
       <img className='imgCarrito' src={imgCarrito} alt="Carrito" />
       {
         totalCantidad

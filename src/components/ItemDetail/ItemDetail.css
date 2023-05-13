@@ -5,54 +5,77 @@
     box-sizing: border-box;
 }
 .contenedorItem{
+    width: 70%;
+    margin-top: 1rem;
+    margin-left: 15%;
     background-color: blue;
     text-align: center;
     border: 1px solid blue;
     border-radius: 1rem;
-    padding: 1rem;
+    padding: 0.3rem;
 }
 .contenedorDetail{
     background-color: orange;
     border: 2px solid white;
     border-radius: 1rem;
-    margin-top: 5rem;
-    padding: 1rem;
-
+    padding: .5rem;
 }
 .nombreDetail{
+
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 .precioDetail{
+
     justify-content: center;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 .idDetail{
+
     justify-content: center;
     color: black;
     font-size: 1rem;
 }
 .imgDetails{
-    width: 25vw;
+    width: 15vw;
+    display: block;
     object-fit: contain;
     border: 3px solid white;
     border-radius: 1rem;    
+    margin-top: .5rem;
+    margin-left: 39%;
 }
 .descripcion{
-    font-size: 1.3rem;
-    width: 70%;
+    display: inline-block;
+    font-size: 1rem;
+    width: 90%;
     text-align: center;
     padding: 1rem;
-    margin-left: 15%;
+    margin-top: .3rem;
+    margin-left: 5%;
     font-size: medium;
     font-weight: bold;
     color: white;
     background-color: blue;
     border: 2px solid white;
     border-radius: 1rem;
+}
+.outCompra{
+    display: block;
+    margin-left: 41%;
+    margin-top: 1rem;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+    width: 10rem;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    align-items: end;
 }

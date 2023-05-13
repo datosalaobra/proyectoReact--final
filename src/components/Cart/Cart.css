@@ -1,6 +1,69 @@
-.terminarCompra{
-    color: white;
+.contenedorOutCompra{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1rem;
     background-color: blue;
+    text-align: center;
+    border: 1px solid blue;
+    border-radius: 1rem;
+    padding: 0.3rem;
+}
+.btnVaciarCarrito{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+    width: 8rem;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-left: 39%;
+    margin-top: .5rem;
+}
+.subcontenedorOutCompra{
+    color: white;
+    background-color: orange;
     border: 2px solid white;
     border-radius: 1rem;
+    padding: 1rem;
+}
+.btnOutCompra{
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2rem;
+    width: 8rem;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: .3rem;
+}
+.contenedorSinProductos{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1rem;
+    background-color: blue;
+    text-align: center;
+    border: 1px solid blue;
+    border-radius: 1rem;
+    padding: 0.3rem;
+}
+.subcontenedorSinProductos{
+    color: white;
+    background-color: orange;
+    border: 2px solid white;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.btnProductos{
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2rem;
+    width: 8rem;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: .3rem;
 }
