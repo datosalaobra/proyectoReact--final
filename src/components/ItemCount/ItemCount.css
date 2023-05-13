@@ -40,3 +40,11 @@
     align-items: end;
 
 }
+/* Utilizo media queries para aplicar estilos específicos a diferentes tamaños de pantalla */
+@media screen and (max-width: 768px) {
+    /* Ocultar el titulo de la tienda del navbar */
+    .btnAgregar {
+    margin-left: 20%;
+    }
+
+}

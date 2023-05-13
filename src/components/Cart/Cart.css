@@ -67,3 +67,10 @@
     border: 1px solid white;
     padding: .3rem;
 }
+/* Utilizo media queries para aplicar estilos específicos a diferentes tamaños de pantalla */
+@media screen and (max-width: 768px) {
+    /* Ocultar el titulo de la tienda del navbar */
+    .btnVaciarCarrito {
+    margin-left: 10%;
+    }
+}

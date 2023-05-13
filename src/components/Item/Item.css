@@ -29,3 +29,10 @@
     border: 1px solid white;
     align-items: end;
 }
+
+@media screen and (max-width: 768px) {
+    /* Ocultar el titulo de la tienda del navbar */
+    .cardProducto {
+    margin-left: 25%;
+    }
+}

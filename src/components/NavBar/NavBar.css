@@ -29,7 +29,7 @@ header{
 .nav-link{
     color: blue;
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: bold;
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
@@ -43,3 +43,21 @@ a:hover{
     color: white;
     background-size: 100% 2px
 }
+.navbar-toggler{
+    color: white;
+}
+.navbar-dark{
+    color: white;
+}
+
+/* Utilizo media queries para aplicar estilos específicos a diferentes tamaños de pantalla */
+@media screen and (max-width: 768px) {
+    /* Ocultar el titulo de la tienda del navbar */
+    .navbar-brand {
+    display: none;
+    }
+    .nav-link{
+        font-size: 1rem;
+    }
+}
+
