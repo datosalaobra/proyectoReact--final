@@ -1,0 +1,46 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: self-end;
+    background-color: orange;
+    border-top: 0.3rem solid blue;
+    border-bottom: 0.1rem solid blue;
+    z-index: 1;
+}
+.container-fluid{
+    background-color: orange; 
+}
+.navbar-brand{
+    display: flex;
+    padding-right: 12rem;
+    color:rgb(3, 3, 252);
+    font-size: 1.8rem;
+    font-weight: bold;
+    background-size: 0% 2px;
+    text-shadow: white 0.1em 0.1em 0.2em; 
+}
+.nav-link{
+    color: blue;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+/* pseudoclase hover para los botones */
+a:hover{
+    color: white;
+    background-size: 100% 2px
+}

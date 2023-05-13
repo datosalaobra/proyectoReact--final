@@ -1,0 +1,58 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedorItem{
+    background-color: blue;
+    text-align: center;
+    border: 1px solid blue;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.contenedorDetail{
+    background-color: orange;
+    border: 2px solid white;
+    border-radius: 1rem;
+    margin-top: 5rem;
+    padding: 1rem;
+
+}
+.nombreDetail{
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.precioDetail{
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.idDetail{
+    justify-content: center;
+    color: black;
+    font-size: 1rem;
+}
+.imgDetails{
+    width: 25vw;
+    object-fit: contain;
+    border: 3px solid white;
+    border-radius: 1rem;    
+}
+.descripcion{
+    font-size: 1.3rem;
+    width: 70%;
+    text-align: center;
+    padding: 1rem;
+    margin-left: 15%;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    border: 2px solid white;
+    border-radius: 1rem;
+}

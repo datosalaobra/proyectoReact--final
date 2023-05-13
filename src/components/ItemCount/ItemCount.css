@@ -1,0 +1,42 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedorCount{
+    margin: 1rem;
+}
+.btnDeCount{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    background-color: blue;
+    border: 2px solid white;
+    border-radius: 1rem;
+}
+.btnInCount{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    background-color: blue;
+    border: 2px solid white;
+    border-radius: 1rem;
+}
+.strCount{
+    color: blue;
+    font-size: large;
+    font-weight: bold;
+}
+
+.btnAgregar{
+    display: inline-block;
+    width: 10rem;
+    font-size: medium;
+    color: white;
+    background-color: blue;
+    border: 2px solid white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-left: auto;
+}
